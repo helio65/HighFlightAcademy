@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\Aluno\" />
+    <Folder Include="Controllers\Cargo\" />
+    <Folder Include="Controllers\Curso\" />
+    <Folder Include="Controllers\Empresa\" />
+    <Folder Include="Controllers\Instituicao\" />
+    <Folder Include="Controllers\OrgaoEmissor\" />
+    <Folder Include="Controllers\TipoCertificado\" />
+    <Folder Include="Controllers\TipoExame\" />
+    <Folder Include="Controllers\TipoLicenca\" />
+    <Folder Include="Controllers\TipoTreinamento\" />
+    <Folder Include="Controllers\Titulacao\" />
+    <Folder Include="Models\Aluno\" />
+    <Folder Include="Models\Cargo\" />
+    <Folder Include="Models\Curso\" />
+    <Folder Include="Models\Empresa\" />
+    <Folder Include="Models\Instituicao\" />
+    <Folder Include="Models\Titulacao\" />
+    <Folder Include="Models\TipoTreinamento\" />
+    <Folder Include="Models\TipoLicenca\" />
+    <Folder Include="Models\TipoExame\" />
+    <Folder Include="Models\TipoCertificado\" />
+    <Folder Include="Models\OrgaoEmissor\" />
+    <Folder Include="Views\Aluno\" />
+    <Folder Include="Views\Cargo\" />
+    <Folder Include="Views\Curso\" />
+    <Folder Include="Views\Empresa\" />
+    <Folder Include="Views\Instituicao\" />
+    <Folder Include="Views\OrgaoEmissor\" />
+    <Folder Include="Views\TipoCertificado\" />
+    <Folder Include="Views\TipoExame\" />
+    <Folder Include="Views\TipoLicenca\" />
+    <Folder Include="Views\TipoTreinamento\" />
+    <Folder Include="Views\Titulacao\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HighFlightAcademy.Util\HighFlightAcademy.Utils.csproj" />
+  </ItemGroup>
+
+</Project>

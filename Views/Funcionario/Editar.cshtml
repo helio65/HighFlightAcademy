@@ -1,0 +1,111 @@
+﻿@using HighFlightAcademy.Models.Funcionario;
+@model FuncionarioModel
+<div class="container mt-5">
+    <h2>Funcionário</h2>
+    <form asp-controller="Funcionario" asp-action="Create" method="post">
+        <input type="hidden" name="id_funcionario" asp-for="ID_Funcionario" />
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="Nome" asp-for="Nome" placeholder="Digite o nome do Funcionário" required />
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="mb-3">
+                    <label for="cpf" class="form-label">Cpf</label>
+                    <input type="text" class="form-control" id="CPF" asp-for="Cpf" placeholder="Digite o número do CPF" required />
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="mb-3">
+                    <label for="DataNascimento" class="form-label">Data de Nascimento</label>
+                    <input type="date" class="form-control" id="DataNascimento" asp-for="DataNascimento" placeholder="Digite a data de nascimento" required />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label for="ID_Cargo" class="form-label">Cargo</label>
+                    <select class="form-select" asp-for="ID_Cargo" aria-label="Cargo">
+                        <option selected>Selecione o Cargo</option>
+                        @* @foreach (var cargo in ViewBag.GetCargos)
+                        {
+                        <option value="@cargo.id_cargo" selected="@(Model.ID_Cargo == cargo.id_cargo)">@cargo.nome_cargo</option>
+                        } *@
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label for="ID_Titulacao" class="form-label">Titulação</label>
+                    <select class="form-select" asp-for="ID_Titulacao" aria-label="Titulação">
+                        <option selected>Selecione a Titulação</option>
+                        @* @foreach (var titulacao in ViewBag.GetTitulacoes)
+                        {
+                        <option value="@titulacao.id_titulacao" selected="@(Model.ID_Titulacao == titulacao.id_titulacao)">@titulacao.nome_titulacao</option>
+                        } *@
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <div class="mb-3">
+                    <label for="End_Cep" class="form-label">CEP</label>
+                    <input type="text" class="form-control" id="Cep" asp-for="End_Cep" placeholder="Digite o CEP" />
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="mb-3">
+                    <label for="End_Logradouro" class="form-label">Logradouro</label>
+                    <input type="text" class="form-control" id="End_Logradouro" asp-for="End_Logradouro" placeholder="Digite o endereço" />
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="mb-3">
+                    <label for="End_Numero" class="form-label">Número</label>
+                    <input type="text" class="form-control" id="End_Numero" asp-for="End_Numero" placeholder="Digite o número" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="mb-3">
+                    <label for="End_Complemento" class="form-label">Complemento</label>
+                    <input type="text" class="form-control" id="End_Complemento" asp-for="End_Complemento" placeholder="Digite o complemento" />
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="mb-3">
+                    <label for="ID_Cidade_End" class="form-label">Cidade</label>
+                    <select class="form-select" asp-for="ID_Cidade_End" aria-label="Cidade">
+                        <option selected>Selecione a Cidade</option>
+                        @* @foreach (var cidade in ViewBag.GetCidades)
+                        {
+                        <option value="@cidade.id_cidade" selected="@(Model.ID_Cidade_End == cidade.id_cidade)">@cidade.nome_cidade</option>
+                        } *@
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="mb-3">
+                    <label for="Telefone" class="form-label">Telefone</label>
+                    <input type="text" class="form-control" id="Telefone" asp-for="Telefone" placeholder="Digite o número do telefone" />
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="mb-3">
+                    <label for="Email" class="form-label">E-mail</label>
+                    <input type="text" class="form-control" id="Email" asp-for="Email" placeholder="Digite o endereço de e-mail" />
+                </div>
+            </div>
+        </div>
+        <!-- Botão de Enviar -->
+        <button type="submit" class="btn btn-success" asp-controller="Funcionario" asp-action="Update">Salvar</button>
+        <a href="@Url.Action("Index")" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>

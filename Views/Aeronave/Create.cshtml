@@ -1,0 +1,48 @@
+﻿@using HighFlightAcademy.Models.Aeronave;
+@model AeronaveModel
+<div class="container mt-5">
+    <h2>Aeronave</h2>
+    <form asp-controller="Aeronave" asp-action="Create" method="post">
+        <div class="row">            
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label for="Modelo" class="form-label">Modelo</label>
+                    <input type="text" class="form-control" id="Modelo" asp-for="Modelo" placeholder="Digite o Modelo" required />
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="mb-3">
+                    <label for="Matricula" class="form-label">Matrícula</label>
+                    <input type="text" class="form-control" id="Matricula" asp-for="Matricula" placeholder="Digite a Matrícula" required />
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="mb-3">
+                    <label for="Capacidade" class="form-label">Capacidade</label>
+                    <input type="number" class="form-control" id="Capacidade" asp-for="Capacidade" placeholder="Digite a capacidade" required />
+                </div>
+            </div>
+        </div>        
+        <div class="row">            
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label for="AnoFabricacao" class="form-label">Ano de Fabricação</label>
+                    <input type="number" class="form-control" id="AnoFabricacao" asp-for="AnoFabricacao" placeholder="Digite o Ano de Fabrição" required />
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label for="INStatus" class="form-label">Status</label>
+                    <select class="form-select" asp-for="INStatus" aria-label="Status">
+                        <option selected>Selecione o Status</option>
+                        <option value="Manutecao">Disponível</option>
+                        <option value="Disponivel">Manutenção</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <!-- Botão de Enviar -->        
+        <button type="submit" class="btn btn-success" asp-controller="Aeronave" asp-action="Gravar">Salvar</button>
+        <a href="@Url.Action("Index")" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>

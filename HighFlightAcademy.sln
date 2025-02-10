@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HighFlightAcademy", "HighFlightAcademy.csproj", "{9205A67D-290D-4FD7-9D37-6B7EBFF883EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HighFlightAcademy.Utils", "..\HighFlightAcademy.Util\HighFlightAcademy.Utils.csproj", "{CEB58A0C-CC0B-4C83-8A6A-52369FE7B7BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9205A67D-290D-4FD7-9D37-6B7EBFF883EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9205A67D-290D-4FD7-9D37-6B7EBFF883EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9205A67D-290D-4FD7-9D37-6B7EBFF883EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9205A67D-290D-4FD7-9D37-6B7EBFF883EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEB58A0C-CC0B-4C83-8A6A-52369FE7B7BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEB58A0C-CC0B-4C83-8A6A-52369FE7B7BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEB58A0C-CC0B-4C83-8A6A-52369FE7B7BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEB58A0C-CC0B-4C83-8A6A-52369FE7B7BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AAFB985-9EE3-4E66-9ED0-679C2C6060FA}
+	EndGlobalSection
+EndGlobal

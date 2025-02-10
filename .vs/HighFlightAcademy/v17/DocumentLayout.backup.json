@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GitRepositorio\\HighFlightAcademy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9205A67D-290D-4FD7-9D37-6B7EBFF883EE}|HighFlightAcademy.csproj|c:\\gitrepositorio\\highflightacademy\\views\\funcionario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9205A67D-290D-4FD7-9D37-6B7EBFF883EE}|HighFlightAcademy.csproj|solutionrelative:views\\funcionario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9205A67D-290D-4FD7-9D37-6B7EBFF883EE}|HighFlightAcademy.csproj|c:\\gitrepositorio\\highflightacademy\\views\\funcionario\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9205A67D-290D-4FD7-9D37-6B7EBFF883EE}|HighFlightAcademy.csproj|solutionrelative:views\\funcionario\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB58A0C-CC0B-4C83-8A6A-52369FE7B7BC}|..\\HighFlightAcademy.Util\\HighFlightAcademy.Utils.csproj|c:\\gitrepositorio\\highflightacademy.util\\entidades\\funcionarioent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9205A67D-290D-4FD7-9D37-6B7EBFF883EE}|HighFlightAcademy.csproj|c:\\gitrepositorio\\highflightacademy\\controllers\\funcionario\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9205A67D-290D-4FD7-9D37-6B7EBFF883EE}|HighFlightAcademy.csproj|solutionrelative:controllers\\funcionario\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9205A67D-290D-4FD7-9D37-6B7EBFF883EE}|HighFlightAcademy.csproj|c:\\gitrepositorio\\highflightacademy\\models\\funcionario\\funcionariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9205A67D-290D-4FD7-9D37-6B7EBFF883EE}|HighFlightAcademy.csproj|solutionrelative:models\\funcionario\\funcionariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9205A67D-290D-4FD7-9D37-6B7EBFF883EE}|HighFlightAcademy.csproj|c:\\gitrepositorio\\highflightacademy\\models\\funcionario\\funcionariosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9205A67D-290D-4FD7-9D37-6B7EBFF883EE}|HighFlightAcademy.csproj|solutionrelative:models\\funcionario\\funcionariosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\GitRepositorio\\HighFlightAcademy\\Views\\Funcionario\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Funcionario\\Editar.cshtml",
+              "ToolTip": "C:\\GitRepositorio\\HighFlightAcademy\\Views\\Funcionario\\Editar.cshtml",
+              "RelativeToolTip": "Views\\Funcionario\\Editar.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwGsAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-09T21:22:37.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\GitRepositorio\\HighFlightAcademy\\Views\\Funcionario\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Funcionario\\Create.cshtml",
+              "ToolTip": "C:\\GitRepositorio\\HighFlightAcademy\\Views\\Funcionario\\Create.cshtml",
+              "RelativeToolTip": "Views\\Funcionario\\Create.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAcwFQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-08T22:30:24.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FuncionariosModel.cs",
+              "DocumentMoniker": "C:\\GitRepositorio\\HighFlightAcademy\\Models\\Funcionario\\FuncionariosModel.cs",
+              "RelativeDocumentMoniker": "Models\\Funcionario\\FuncionariosModel.cs",
+              "ToolTip": "C:\\GitRepositorio\\HighFlightAcademy\\Models\\Funcionario\\FuncionariosModel.cs",
+              "RelativeToolTip": "Models\\Funcionario\\FuncionariosModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T00:53:01.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FuncionarioModel.cs",
+              "DocumentMoniker": "C:\\GitRepositorio\\HighFlightAcademy\\Models\\Funcionario\\FuncionarioModel.cs",
+              "RelativeDocumentMoniker": "Models\\Funcionario\\FuncionarioModel.cs",
+              "ToolTip": "C:\\GitRepositorio\\HighFlightAcademy\\Models\\Funcionario\\FuncionarioModel.cs",
+              "RelativeToolTip": "Models\\Funcionario\\FuncionarioModel.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwEcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T23:57:23.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FuncionarioEnt.cs",
+              "DocumentMoniker": "C:\\GitRepositorio\\HighFlightAcademy.Util\\Entidades\\FuncionarioEnt.cs",
+              "RelativeDocumentMoniker": "..\\HighFlightAcademy.Util\\Entidades\\FuncionarioEnt.cs",
+              "ToolTip": "C:\\GitRepositorio\\HighFlightAcademy.Util\\Entidades\\FuncionarioEnt.cs",
+              "RelativeToolTip": "..\\HighFlightAcademy.Util\\Entidades\\FuncionarioEnt.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAApwIcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T00:12:54.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FuncionarioController.cs",
+              "DocumentMoniker": "C:\\GitRepositorio\\HighFlightAcademy\\Controllers\\Funcionario\\FuncionarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Funcionario\\FuncionarioController.cs",
+              "ToolTip": "C:\\GitRepositorio\\HighFlightAcademy\\Controllers\\Funcionario\\FuncionarioController.cs",
+              "RelativeToolTip": "Controllers\\Funcionario\\FuncionarioController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwD4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T14:08:54.008Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

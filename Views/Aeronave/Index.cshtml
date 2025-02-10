@@ -1,0 +1,50 @@
+﻿@using HighFlightAcademy.Models.Aeronave;
+@model AeronavesModel
+<div>
+    <h1>Alunos DropGunAcademy</h1>
+    <a type="button" class="btn btn-success" asp-controller="Aeronave" asp-action="Create">Adicionar</a>
+    <a class="btn btn btn-secondary" asp-area="" asp-controller="Home" asp-action="Index">Voltar</a>
+    <table class="table table-hover table-light">
+        <thead>
+            <tr>
+                <th scope="col">Identificador</th>
+                <th scope="col">Modelo</th>
+                <th scope="col">Matrícula</th>
+                <th scope="col">Capacidade</th>
+                <th scope="col">Ano de Fabricação</th>
+                <th scope="col">Status</th>
+                <th scope="col">Situação</th>
+                <th scope="col">Data de Cadastro</th>          
+                <th scope="col">Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var aeronave in Model.Aeronaves)
+            {
+                <tr>
+                    <th scope="row">@aeronave.ID_Aeronave</th>
+                    <td>@aeronave.Modelo</td>
+                    <td>@aeronave.Matricula</td>
+                    <td>@aeronave.Capacidade</td>
+                    <td>@aeronave.AnoFabricacao</td>
+                    <td>@aeronave.INStatus</td>
+                    <td>
+                        @if (aeronave.SituacaoRegistro == 1)
+                        {
+                            <span class="badge bg-success">Ativa</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-warning">Excluída</span>
+                        }
+                    </td>
+                    <td>@aeronave.DataCadastro.ToString("dd/MM/yyyy")</td>                    
+                    <td>
+                        <a type="button" class="btn btn-primary btn-sm" asp-controller="Aeronave" asp-action="Editar" asp-route-id="@aeronave.ID_Aeronave">Editar</a>
+                        <a type="button" class="btn btn-danger btn-sm" asp-controller="Aeronave" asp-action="Delete" asp-route-id="@aeronave.ID_Aeronave" onclick="return confirm('Tem certeza que deseja excluir esta Aeronave?')">Excluir</a>                        
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>    
+</div>
