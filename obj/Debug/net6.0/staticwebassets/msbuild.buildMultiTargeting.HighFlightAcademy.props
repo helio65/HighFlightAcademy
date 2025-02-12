@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\HighFlightAcademy.props" />
-</Project>

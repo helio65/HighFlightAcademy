@@ -1,0 +1,54 @@
+# Pastas de compilação
+bin/
+obj/
+
+# Pacotes NuGet baixados (gerenciados pelo restore do NuGet)
+packages/
+
+# Logs e arquivos temporários
+*.log
+*.tlog
+*.log1
+*.log2
+
+# Arquivos de cache do MSBuild
+*.cache
+*.ilk
+*.pdb
+*.rsp
+*.suo
+*.user
+*.csproj.user
+*.vs/
+# Configurações do Visual Studio
+.vs/
+.vscode/
+*.suo
+*.user
+*.sln.cache
+*.ncrunchproject
+*.ncrunchsolution
+
+# Pastas do ReSharper
+_ReSharper.Caches/
+# Diretório das dependências do npm (caso use Node.js no frontend)
+node_modules/
+
+# Arquivos temporários do sistema operacional
+*.tmp
+*.bak
+*.swp
+*.swo
+# Arquivos de banco de dados locais
+App_Data/
+*.mdf
+*.ldb
+*.sdf
+*.sqlite
+*.db
+
+# Configurações privadas (exemplo: connection strings)
+secrets.json
+appsettings.Development.json
+# Arquivos de migração do Entity Framework (gerenciados pelo EF)
+Migrations/

@@ -1,5 +1,5 @@
 ﻿@using HighFlightAcademy.Models.Funcionario;
-@model FuncionarioModel
+@model FuncionarioModel;
 <div class="container mt-5">
     <h2>Funcionário</h2>
     <form asp-controller="Funcionario" asp-action="Create" method="post">
@@ -76,15 +76,19 @@
                     <label for="End_Complemento" class="form-label">Complemento</label>
                     <input type="text" class="form-control" id="End_Complemento" asp-for="End_Complemento" placeholder="Digite o complemento" />
                 </div>
-            </div>
+            </div>           
             <div class="col-md-8">
                 <div class="mb-3">
-                    <label for="ID_Cidade_End" class="form-label">Cidade</label>
-                    <select class="form-select" asp-for="ID_Cidade_End" aria-label="Cidade">
+                    <label for="ID_Cidade_End" class="form-label">Cidade</label>                
+                    <select class="form-select" data-url="@Url.Action("ListaCidades", "Funcionario")" asp-for="ID_Cidade_End" aria-label="Cidade">
                         <option selected>Selecione a Cidade</option>
-                        @foreach (var cidade in ViewBag.GetCidades)
+                        @*@foreach (var cidade in Model.GetCidades)
                         {
                             <option value="@cidade.id_cidade" selected="@(Model.ID_Cidade_End == cidade.id_cidade)">@cidade.nome_cidade</option>
+                        }*@
+                        @foreach (var cidade in Model.Cidades)
+                        {
+                            <option value="@cidade.Value">@cidade.Text</option>
                         }
                     </select>
                 </div>

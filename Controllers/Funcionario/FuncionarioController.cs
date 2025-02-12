@@ -2,6 +2,7 @@
 using HighFlightAcademy.Utils.Entidades;
 using HighFlightAcademy.Models.Funcionario;
 using HighFlightAcademy.Models.Aeronave;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace HighFlightAcademy.Controllers.Funcionario
 {
@@ -86,6 +87,18 @@ namespace HighFlightAcademy.Controllers.Funcionario
                 funcionario.Delete();
             }
             return RedirectToAction("Index");
+        }
+
+        public IActionResult ListaCidades()
+        {            
+            var funcionarioEnt = new FuncionarioEnt();
+            var viewCidades = new FuncionarioModel
+            {
+                Cidades = funcionarioEnt.GetCidades()
+                .Select(c => new SelectListItem { Value = c.id_cidade.ToString(), Text = c.nome })
+                .ToList()
+            };
+            return View(viewCidades);
         }
     }
 }

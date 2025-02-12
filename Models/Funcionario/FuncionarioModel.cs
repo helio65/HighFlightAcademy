@@ -1,9 +1,11 @@
-﻿using System.Net.NetworkInformation;
+﻿using HighFlightAcademy.Utils.Entidades;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Net.NetworkInformation;
 
 namespace HighFlightAcademy.Models.Funcionario
 {
     public class FuncionarioModel
-    {
+    {       
         public int ID_Funcionario { get; set; }
         public int ID_Cargo { get; set; }
         public int ID_Titulacao { get; set; }
@@ -22,6 +24,9 @@ namespace HighFlightAcademy.Models.Funcionario
         public DateTime DataCadastro { get; set; }
         public DateTime DataAteracao { get; set; }
         public int SituacaoRegistro { get; set; }
+        public List<SelectListItem> Cidades { get; set; }
+        public List<SelectListItem> Cargos { get; set; }
+        public List<SelectListItem> Titulacoes { get; set; }
 
         public FuncionarioModel()
         {
@@ -71,7 +76,6 @@ namespace HighFlightAcademy.Models.Funcionario
                 SituacaoRegistro = SituacaoRegistro,
                 DataCadastro     = DataCadastro
             };
-        }
-
+        }                
     }
 }

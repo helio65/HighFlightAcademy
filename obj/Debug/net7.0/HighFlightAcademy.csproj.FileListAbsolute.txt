@@ -1,8 +1,0 @@
-C:\GitRepositorio\HighFlightAcademy\obj\Debug\net7.0\HighFlightAcademy.csproj.AssemblyReference.cache
-C:\GitRepositorio\HighFlightAcademy\obj\Debug\net7.0\HighFlightAcademy.GeneratedMSBuildEditorConfig.editorconfig
-C:\GitRepositorio\HighFlightAcademy\obj\Debug\net7.0\HighFlightAcademy.AssemblyInfoInputs.cache
-C:\GitRepositorio\HighFlightAcademy\obj\Debug\net7.0\HighFlightAcademy.AssemblyInfo.cs
-C:\GitRepositorio\HighFlightAcademy\obj\Debug\net7.0\HighFlightAcademy.csproj.CoreCompileInputs.cache
-C:\GitRepositorio\HighFlightAcademy\obj\Debug\net7.0\HighFlightAcademy.MvcApplicationPartsAssemblyInfo.cache
-C:\GitRepositorio\HighFlightAcademy\obj\Debug\net7.0\HighFlightAcademy.RazorAssemblyInfo.cache
-C:\GitRepositorio\HighFlightAcademy\obj\Debug\net7.0\HighFlightAcademy.RazorAssemblyInfo.cs
